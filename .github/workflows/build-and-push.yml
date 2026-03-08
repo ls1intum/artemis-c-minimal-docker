@@ -67,7 +67,7 @@ jobs:
         with:
           context: .
           tags: |
-            ls1tum/artemis-c-docker:${{ steps.compute-tag.outputs.result }}
-            ghcr.io/ls1intum/artemis-c-docker:${{ steps.compute-tag.outputs.result }}
+            ls1tum/artemis-c-minimal-docker:${{ steps.compute-tag.outputs.result }}
+            ghcr.io/ls1intum/artemis-c-minimal-docker:${{ steps.compute-tag.outputs.result }}
           platforms: linux/amd64,linux/arm64/v8
           push: true
